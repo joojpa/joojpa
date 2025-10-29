@@ -28,7 +28,7 @@
   <a href="https://www.linkedin.com/in/joojpa/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"  width="140" height="60"  />
   </a>
-  <a href="joaopedroacostaalvarez@gmail.com">
+  <a href="mailto:joaopedroacostaalvarez@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"  width="135" height="60"/>
   </a>
   <a href="https://github.com/joojpa" target="_blank">
