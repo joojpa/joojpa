@@ -1,11 +1,13 @@
 # Hi, I'm João Alvarez 👋
 
+<div>
+  <img align = "right" src="./images/pokemon.gif"width="120" height="160"></img>
+</div>
+
 - I'm a Back-End Developer 😉
 - Estudando Java e Spring Boot 🤯
 - Cursando Análise e Desenvolvimento de Sistemas 👀
-<div>
-  <img align = "right" src="./public/images/pokemon.gif"></img>
-</div>
+
 ## Tecnologias
 
 <div align = center>
