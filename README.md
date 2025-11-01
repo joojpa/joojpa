@@ -32,7 +32,7 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"  width="135" height="60"/>
   </a>
   <a href="https://github.com/joojpa" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"  width="145" height="60"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"  width="151" height="60"/>
   </a>
 </div>
 
