@@ -35,6 +35,7 @@
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"  width="145" height="60"/>
   </a>
 </div>
+
 ![snake animation](https://github.com/<joojpa>/<joojpa>/blob/output/github-contribution-grid-snake2.svg)
 
 
