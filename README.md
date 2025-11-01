@@ -1,5 +1,5 @@
 # Hi, I'm João Alvarez 👋
-![snake animation](https://github.com/joojpa/joojpa/blob/output/github-contribution-grid-snake2.svg)
+
 <div>
   <img align = "right" src="./images/pokemon.gif"width="120" height="160"></img>
 </div>
@@ -36,7 +36,7 @@
   </a>
 </div>
 
-
+![snake animation](https://github.com/<joojpa>/<joojpa>/blob/output/github-contribution-grid-snake2.svg)
 
 
 <!--
