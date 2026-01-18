@@ -5,8 +5,8 @@
 </div>
 
 -  **Back-End Developer**  
--  Passionate about technology and software development  
--  Currently studying **Java** and **Spring Boot**  
+-  Passionate about data and software development  
+-  Currently studying <span style = "color: red">Java</span>, **Spring Boot** and React 
 -  Pursuing a degree in **Systems Analysis and Development** 
 
 ##  Technologies & Tools
