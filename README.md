@@ -5,7 +5,7 @@
 </div>
 
 -  **Back-End Developer**  
--  Passionate about Data and software development  
+-  Passionate about Data and Software Development  
 -  Currently studying **Java** , **Spring Boot** and **React** 
 -  Pursuing a degree in **Systems Analysis and Development** 
 
