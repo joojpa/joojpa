@@ -4,9 +4,9 @@
   <img align = "right" src="./images/pokemon.gif"width="120" height="160"></img>
 </div>
 
--  **Full Stack Developer**  
+-  **Back-End Developer**  
 -  Passionate about Data and Software Development  
--  Currently studying **Java** , **Spring Boot** and **React** 
+-  Currently studying **Java** and **Spring Boot**
 -  Pursuing a degree in **Systems Analysis and Development** 
 
 ##  Technologies & Tools
