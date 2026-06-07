@@ -1,0 +1,32 @@
+name: 🎵 Atualiza músicas no README
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # roda todo dia ao meio-dia UTC
+  workflow_dispatch:        # permite rodar manualmente
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Atualiza README com top 3 da semana
+        run: python scripts/update_readme.py
+
+      - name: Commit e push se houve mudança
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (
+            git add README.md &&
+            git commit -m "🎵 Atualiza top 3 da semana" &&
+            git push
+          )

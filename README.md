@@ -27,15 +27,33 @@
 │                                                                     │
 │  games · anime · movies · music · learning new things               │
 │                                                                     │
+│  $ cat now_playing.txt                                              │
+│                                                                     │
+│  [ veja abaixo o top 3 da semana ]                                  │
+│                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
 │  > github:    https://github.com/joojpa                             │
-│  > linkedin:  https://linkedin.com/in/joojpa                        │                               
+│  > linkedin:  https://linkedin.com/in/joojpa                        │
 │  > email:     joojpaz@gmail.com                                     │
 │                                                                     │
 │  $ _                                                                │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+<!-- MUSIC_START -->
+```
+│  $ cat now_playing.txt                                               │
+│                                                                      │
+│    top 3 da semana · atualizado em 07/06/2026                        │
+│                                                                      │
+│    🥇 残響散歌 - Zankyosanka — Aimer (10x)                               │
+│    🥈 Meu Jeitinho — LVCAS (9x)                                      │
+│    🥉 Saving Us — Serj Tankian (8x)                                  │
+│                                                                      │
+```
+<!-- MUSIC_END -->
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joojpa/joojpa/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joojpa/joojpa/output/github-snake.svg" />
