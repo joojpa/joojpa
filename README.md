@@ -45,11 +45,11 @@
 ```
 │  $ cat now_playing.txt                                               │
 │                                                                      │
-│    top 3 da semana · atualizado em 07/06/2026                        │
+│    top 3 da semana · atualizado em 08/06/2026                        │
 │                                                                      │
-│    🥇 残響散歌 - Zankyosanka — Aimer (10x)                               │
-│    🥈 Meu Jeitinho — LVCAS (9x)                                      │
-│    🥉 Saving Us — Serj Tankian (8x)                                  │
+│    🥇 残響散歌 - Zankyosanka — Aimer (11x)                               │
+│    🥈 Saving Us — Serj Tankian (9x)                                  │
+│    🥉 Meu Jeitinho — LVCAS (8x)                                      │
 │                                                                      │
 ```
 <!-- MUSIC_END -->
