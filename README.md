@@ -45,11 +45,11 @@
 ```
 │  $ cat now_playing.txt                                               │
 │                                                                      │
-│    top 3 da semana · atualizado em 11/06/2026                        │
+│    top 3 da semana · atualizado em 12/06/2026                        │
 │                                                                      │
-│    🥇 残響散歌 - Zankyosanka — Aimer (7x)                                │
+│    🥇 Empty Walls — Serj Tankian (8x)                                │
 │    🥈 Saving Grace (From the Prime Original Series Spider-Noir)...   │
-│    🥉 Saving Us — Serj Tankian (5x)                                  │
+│    🥉 Got the Life — Korn (4x)                                       │
 │                                                                      │
 ```
 <!-- MUSIC_END -->
