@@ -45,11 +45,11 @@
 ```
 │  $ cat now_playing.txt                                               │
 │                                                                      │
-│    top 3 da semana · atualizado em 12/06/2026                        │
+│    top 3 da semana · atualizado em 13/06/2026                        │
 │                                                                      │
-│    🥇 Empty Walls — Serj Tankian (8x)                                │
+│    🥇 Empty Walls — Serj Tankian (15x)                               │
 │    🥈 Saving Grace (From the Prime Original Series Spider-Noir)...   │
-│    🥉 Got the Life — Korn (4x)                                       │
+│    🥉 Coming Undone — Korn (4x)                                      │
 │                                                                      │
 ```
 <!-- MUSIC_END -->
