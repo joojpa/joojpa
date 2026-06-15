@@ -27,10 +27,6 @@
 │                                                                     │
 │  games · anime · movies · music · learning new things               │
 │                                                                     │
-│  $ cat now_playing.txt                                              │
-│                                                                     │
-│  [ veja abaixo o top 3 da semana ]                                  │
-│                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
 │  > github:    https://github.com/joojpa                             │
@@ -40,7 +36,6 @@
 │  $ _                                                                │
 └─────────────────────────────────────────────────────────────────────┘
 ```
-
 <!-- MUSIC_START -->
 ```
 │  $ cat now_playing.txt                                               │
