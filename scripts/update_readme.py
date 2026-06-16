@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Busca o top 3 da semana no Last.fm e atualiza o README.md do perfil GitHub.
-Rodado pelo GitHub Actions diariamente.
+Fetches the top 3 songs of the week from Last.fm and updates the GitHub profile README.
+Run daily via GitHub Actions.
 """
 import urllib.request
 import urllib.parse
@@ -83,7 +83,7 @@ def buscar_top_semana():
     return top3, top_art
 
 def buscar_imagem_artista(artista):
-    """Busca imagem do artista via Deezer API (gratuita, sem key)."""
+    """Fetches artist image via Deezer API (free, no key required)."""
     try:
         params = urllib.parse.urlencode({"q": artista, "limit": 1})
         url = f"https://api.deezer.com/search/artist?{params}"
@@ -96,7 +96,7 @@ def buscar_imagem_artista(artista):
             if img:
                 return img
     except Exception as e:
-        print(f"  ⚠️  Deezer falhou: {e}")
+        print(f"  ⚠️  Deezer failed: {e}")
 
     # Fallback: iTunes Search API
     try:
@@ -115,7 +115,7 @@ def buscar_imagem_artista(artista):
             img = results[0].get("artworkUrl100", "")
             return img.replace("100x100bb", "600x600bb") if img else None
     except Exception as e:
-        print(f"  ⚠️  iTunes falhou: {e}")
+        print(f"  ⚠️  iTunes failed: {e}")
 
     return None
 
@@ -131,14 +131,14 @@ def truncar(texto, max_largura):
     return resultado
 
 def gerar_bloco(top, artista_top, imagem_url):
-    hoje   = datetime.now().strftime("%d/%m/%Y")
+    hoje   = datetime.now().strftime("%m/%d/%Y")
     medals = ["🥇", "🥈", "🥉"]
     max_musica = LARGURA - 6
 
     terminal_linhas = [
         linha(" $ cat now_playing.txt"),
         linha(),
-        linha(f"   top 3 da semana · atualizado em {hoje}"),
+        linha(f"   top 3 this week · updated on {hoje}"),
         linha(),
     ]
 
@@ -158,7 +158,7 @@ def gerar_bloco(top, artista_top, imagem_url):
             f"{terminal}\n"
             "```\n\n"
             "</td><td align='center'>\n\n"
-            f"**Artist of the Week**\n\n"
+            f"**artist of the week**\n\n"
             f"**{artista_top}**\n\n"
             f'<img src="{imagem_url}" width="200" style="border-radius:12px"/>\n\n'
             "</td></tr></table>"
@@ -172,35 +172,35 @@ def atualizar_readme(bloco):
     conteudo = README_FILE.read_text(encoding="utf-8")
 
     if MARKER_START not in conteudo or MARKER_END not in conteudo:
-        print("Marcadores não encontrados no README.")
+        print("Markers not found in README.")
         return False
 
     antes  = conteudo.split(MARKER_START)[0]
     depois = conteudo.split(MARKER_END)[1]
     novo   = f"{antes}{MARKER_START}\n{bloco}\n{MARKER_END}{depois}"
     README_FILE.write_text(novo, encoding="utf-8")
-    print("README atualizado!")
+    print("README updated!")
     return True
 
 def main():
-    print("Buscando top 3 da semana...")
+    print("Fetching top 3 of the week...")
     top3, artista_top = buscar_top_semana()
 
     if not top3:
-        print("Nenhum scrobble encontrado.")
+        print("No scrobbles found.")
         return
 
     print("Top 3:")
     for musica, contagem in top3:
         print(f"  {musica} ({contagem}x)")
-    print(f"  🎤 Artista da semana: {artista_top}")
+    print(f"  Artist of the week: {artista_top}")
 
-    print("Buscando imagem do artista...")
+    print("Fetching artist image...")
     imagem_url = buscar_imagem_artista(artista_top)
     if imagem_url:
-        print(f"  ✅ Imagem: {imagem_url}")
+        print(f"  ✅ Image found: {imagem_url}")
     else:
-        print("  ⚠️  Imagem não encontrada, continuando sem ela.")
+        print("  ⚠️  Image not found, continuing without it.")
 
     bloco = gerar_bloco(top3, artista_top, imagem_url)
     atualizar_readme(bloco)
