@@ -27,10 +27,6 @@
 │                                                                     │
 │  games · anime · movies · music · learning new things               │
 │                                                                     │
-│  $ cat now_playing.txt                                              │
-│                                                                     │
-│  [ veja abaixo o top 3 da semana ]                                  │
-│                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
 │  > github:    https://github.com/joojpa                             │
@@ -41,23 +37,32 @@
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- CYBER_START -->
+![cybersec](https://img.shields.io/badge/Google_Cybersecurity-Day%205%20of%20365-blue?style=for-the-badge&logo=google&logoColor=white)
+
+`[░░░░░░░░░░░░░░░░░░░░] 1.4%`
+<!-- CYBER_END -->
+
 <!-- MUSIC_START -->
 <table><tr><td>
 
 ```
+┌─────────────────────────────────────────────────────────────────────┐
 │  $ cat now_playing.txt                                              │
+├─────────────────────────────────────────────────────────────────────┤
 │                                                                     │
-│    top 3 this week · updated on 06/15/2026                          │
+│    top 3 this week · updated on 06/16/2026                          │
 │                                                                     │
-│   🥇 Empty Walls — Serj Tankian (19x)                               │
-│   🥈 Saving Grace (From the Prime Original Series Spider-... (8x)   │
-│   🥉 Coming Undone — Korn (6x)                                      │
+│   🥇 Empty Walls — Serj Tankian (23x)                               │
+│   🥈 Saving Grace (From the Prime Original Series Spider-... (7x)   │
+│   🥉 Coming Undone — Korn (5x)                                      │
 │                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 </td><td align='center'>
 
-**Artist Of The Week**
+**Artist of the Week**
 
 **Korn**
 

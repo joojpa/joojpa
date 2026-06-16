@@ -8,16 +8,19 @@ import urllib.parse
 import json
 import unicodedata
 from collections import Counter
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from pathlib import Path
 
-LASTFM_API_KEY = "3affae9bce83cc5fd8d062d2b61e772d"
-LASTFM_USER    = "joojpa"
-README_FILE    = Path(__file__).parent.parent / "README.md"
+LASTFM_API_KEY    = "3affae9bce83cc5fd8d062d2b61e772d"
+LASTFM_USER       = "joojpa"
+README_FILE       = Path(__file__).parent.parent / "README.md"
+CYBERSEC_START    = date(2026, 6, 11)
 
-MARKER_START = "<!-- MUSIC_START -->"
-MARKER_END   = "<!-- MUSIC_END -->"
-LARGURA      = 67
+MARKER_START      = "<!-- MUSIC_START -->"
+MARKER_END        = "<!-- MUSIC_END -->"
+MARKER_CYBER_START = "<!-- CYBER_START -->"
+MARKER_CYBER_END   = "<!-- CYBER_END -->"
+LARGURA           = 67
 
 def largura_real(s):
     total = 0
@@ -83,7 +86,6 @@ def buscar_top_semana():
     return top3, top_art
 
 def buscar_imagem_artista(artista):
-    """Fetches artist image via Deezer API (free, no key required)."""
     try:
         params = urllib.parse.urlencode({"q": artista, "limit": 1})
         url = f"https://api.deezer.com/search/artist?{params}"
@@ -98,7 +100,6 @@ def buscar_imagem_artista(artista):
     except Exception as e:
         print(f"  ⚠️  Deezer failed: {e}")
 
-    # Fallback: iTunes Search API
     try:
         params = urllib.parse.urlencode({
             "term": artista,
@@ -130,13 +131,19 @@ def truncar(texto, max_largura):
         atual += w
     return resultado
 
-def gerar_bloco(top, artista_top, imagem_url):
+def dias_cybersec():
+    return (date.today() - CYBERSEC_START).days
+
+def gerar_bloco_musica(top, artista_top, imagem_url):
     hoje   = datetime.now().strftime("%m/%d/%Y")
     medals = ["🥇", "🥈", "🥉"]
     max_musica = LARGURA - 6
 
+    BORDA = "─" * (LARGURA + 2)
     terminal_linhas = [
+        f"┌{BORDA}┐",
         linha(" $ cat now_playing.txt"),
+        f"├{BORDA}┤",
         linha(),
         linha(f"   top 3 this week · updated on {hoje}"),
         linha(),
@@ -149,6 +156,7 @@ def gerar_bloco(top, artista_top, imagem_url):
         terminal_linhas.append(linha(texto))
 
     terminal_linhas.append(linha())
+    terminal_linhas.append(f"└{BORDA}┘")
     terminal = "\n".join(terminal_linhas)
 
     if imagem_url:
@@ -158,7 +166,7 @@ def gerar_bloco(top, artista_top, imagem_url):
             f"{terminal}\n"
             "```\n\n"
             "</td><td align='center'>\n\n"
-            f"**Artist Of The Week**\n\n"
+            f"**Artist of the Week**\n\n"
             f"**{artista_top}**\n\n"
             f'<img src="{imagem_url}" width="200" style="border-radius:12px"/>\n\n'
             "</td></tr></table>"
@@ -168,19 +176,24 @@ def gerar_bloco(top, artista_top, imagem_url):
 
     return bloco
 
-def atualizar_readme(bloco):
-    conteudo = README_FILE.read_text(encoding="utf-8")
+def gerar_bloco_cybersec():
+    dias  = dias_cybersec()
+    barra = min(dias, 365)
+    progresso = int((barra / 365) * 20)
+    barra_str = "█" * progresso + "░" * (20 - progresso)
+    pct = round((barra / 365) * 100, 1)
+    return (
+        f"![cybersec](https://img.shields.io/badge/Google_Cybersecurity-"
+        f"Day%20{dias}%20of%20365-blue?style=for-the-badge&logo=google&logoColor=white)\n\n"
+        f"`[{barra_str}] {pct}%`"
+    )
 
-    if MARKER_START not in conteudo or MARKER_END not in conteudo:
-        print("Markers not found in README.")
-        return False
-
-    antes  = conteudo.split(MARKER_START)[0]
-    depois = conteudo.split(MARKER_END)[1]
-    novo   = f"{antes}{MARKER_START}\n{bloco}\n{MARKER_END}{depois}"
-    README_FILE.write_text(novo, encoding="utf-8")
-    print("README updated!")
-    return True
+def atualizar_secao(conteudo, marker_start, marker_end, bloco):
+    if marker_start not in conteudo or marker_end not in conteudo:
+        return conteudo, False
+    antes  = conteudo.split(marker_start)[0]
+    depois = conteudo.split(marker_end)[1]
+    return f"{antes}{marker_start}\n{bloco}\n{marker_end}{depois}", True
 
 def main():
     print("Fetching top 3 of the week...")
@@ -193,7 +206,7 @@ def main():
     print("Top 3:")
     for musica, contagem in top3:
         print(f"  {musica} ({contagem}x)")
-    print(f"  Artist of the week: {artista_top}")
+    print(f"  Artist Of The Week: {artista_top}")
 
     print("Fetching artist image...")
     imagem_url = buscar_imagem_artista(artista_top)
@@ -202,8 +215,21 @@ def main():
     else:
         print("  ⚠️  Image not found, continuing without it.")
 
-    bloco = gerar_bloco(top3, artista_top, imagem_url)
-    atualizar_readme(bloco)
+    dias = dias_cybersec()
+    print(f"  📅 Cybersecurity streak: Day {dias}")
+
+    conteudo = README_FILE.read_text(encoding="utf-8")
+
+    conteudo, ok = atualizar_secao(conteudo, MARKER_START, MARKER_END, gerar_bloco_musica(top3, artista_top, imagem_url))
+    if not ok:
+        print("Music markers not found in README.")
+
+    conteudo, ok = atualizar_secao(conteudo, MARKER_CYBER_START, MARKER_CYBER_END, gerar_bloco_cybersec())
+    if not ok:
+        print("Cybersec markers not found in README — add <!-- CYBER_START --> and <!-- CYBER_END -->.")
+
+    README_FILE.write_text(conteudo, encoding="utf-8")
+    print("README updated!")
 
 if __name__ == "__main__":
     main()
