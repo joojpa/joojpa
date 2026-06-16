@@ -42,16 +42,28 @@
 ```
 
 <!-- MUSIC_START -->
+<table><tr><td>
+
 ```
-│  $ cat now_playing.txt                                               │
-│                                                                      │
-│    top 3 da semana · atualizado em 07/06/2026                        │
-│                                                                      │
-│    🥇 残響散歌 - Zankyosanka — Aimer (10x)                               │
-│    🥈 Meu Jeitinho — LVCAS (9x)                                      │
-│    🥉 Saving Us — Serj Tankian (8x)                                  │
-│                                                                      │
+│  $ cat now_playing.txt                                              │
+│                                                                     │
+│    top 3 da semana · atualizado em 15/06/2026                       │
+│                                                                     │
+│   🥇 Empty Walls — Serj Tankian (19x)                               │
+│   🥈 Saving Grace (From the Prime Original Series Spider-... (8x)   │
+│   🥉 Coming Undone — Korn (6x)                                      │
+│                                                                     │
 ```
+
+</td><td align='center'>
+
+**🎤 artista da semana**
+
+**Korn**
+
+<img src="https://cdn-images.dzcdn.net/images/artist/77c9598025a4f29d7c4d070fbde6a0c8/1000x1000-000000-80-0-0.jpg" width="200" style="border-radius:12px"/>
+
+</td></tr></table>
 <!-- MUSIC_END -->
 
 <picture>
