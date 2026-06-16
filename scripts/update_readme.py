@@ -158,7 +158,7 @@ def gerar_bloco(top, artista_top, imagem_url):
             f"{terminal}\n"
             "```\n\n"
             "</td><td align='center'>\n\n"
-            f"**artist of the week**\n\n"
+            f"**Artist Of The Week**\n\n"
             f"**{artista_top}**\n\n"
             f'<img src="{imagem_url}" width="200" style="border-radius:12px"/>\n\n'
             "</td></tr></table>"

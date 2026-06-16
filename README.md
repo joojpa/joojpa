@@ -57,7 +57,7 @@
 
 </td><td align='center'>
 
-**artist of the week**
+**Artist Of The Week**
 
 **Korn**
 
