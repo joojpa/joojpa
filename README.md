@@ -38,9 +38,9 @@
 ```
 
 <!-- CYBER_START -->
-![cybersec](https://img.shields.io/badge/Google_Cybersecurity-Day%205%20of%20365-blue?style=for-the-badge&logo=google&logoColor=white)
+![cybersec](https://img.shields.io/badge/Google_Cybersecurity-Day%206%20of%20365-blue?style=for-the-badge&logo=google&logoColor=white)
 
-`[░░░░░░░░░░░░░░░░░░░░] 1.4%`
+`[░░░░░░░░░░░░░░░░░░░░] 1.6%`
 <!-- CYBER_END -->
 
 <!-- MUSIC_START -->
@@ -51,11 +51,11 @@
 │  $ cat now_playing.txt                                              │
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                     │
-│    top 3 this week · updated on 06/16/2026                          │
+│    top 3 this week · updated on 06/17/2026                          │
 │                                                                     │
-│   🥇 Empty Walls — Serj Tankian (23x)                               │
-│   🥈 Saving Grace (From the Prime Original Series Spider-... (7x)   │
-│   🥉 Coming Undone — Korn (5x)                                      │
+│   🥇 Empty Walls — Serj Tankian (24x)                               │
+│   🥈 Saving Grace (From the Prime Original Series Spider-... (8x)   │
+│   🥉 Guns for Hire (From the series Arcane League of Lege... (5x)   │
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
