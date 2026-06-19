@@ -191,31 +191,29 @@ def gerar_terminal(top, artista_top):
     return "\n".join(linhas)
 
 def gerar_mini_terminal_artista(artista_top, imagem_url):
-    LARGURA_MINI = 28
-    BORDA = "─" * LARGURA_MINI
+    """Renders the artist box as an HTML 'terminal' (not a code block) so the image can sit inside it."""
+    titulo = truncar(artista_top, 26)
 
-    def linha_mini(texto=""):
-        pad = LARGURA_MINI - largura_real(texto) - 1
-        pad = max(pad, 0)
-        return f"│ {texto}{' ' * pad}│"
-
-    titulo = truncar(artista_top, LARGURA_MINI - 4)
-
-    linhas = [
-        f"┌{BORDA}┐",
-        linha_mini(" $ cat artist.txt"),
-        f"├{BORDA}┤",
-        linha_mini(),
-        linha_mini(" Artist of the Week"),
-        linha_mini(f" {titulo}"),
-        linha_mini(),
-        f"└{BORDA}┘",
-    ]
-    texto_terminal = "\n".join(linhas)
-
-    bloco = "```\n" + texto_terminal + "\n```"
+    img_html = ""
     if imagem_url:
-        bloco += f'\n\n<p align="center"><img src="{imagem_url}" width="180" style="border-radius:12px"/></p>'
+        img_html = (
+            f'<img src="{imagem_url}" width="180" '
+            'style="border-radius:8px;margin:8px 0;"/><br/>'
+        )
+
+    bloco = (
+        '<table cellpadding="0" cellspacing="0" '
+        'style="border:1px solid #444;border-radius:6px;width:220px;'
+        'font-family:monospace;background:#0d1117;color:#c9d1d9;">'
+        '<tr><td style="padding:6px 10px;border-bottom:1px solid #444;'
+        'font-size:13px;">$ cat artist.txt</td></tr>'
+        '<tr><td align="center" style="padding:10px;">'
+        f'{img_html}'
+        '<b style="font-size:13px;">Artist of the Week</b><br/>'
+        f'<span style="font-size:13px;">{titulo}</span>'
+        '</td></tr>'
+        '</table>'
+    )
     return bloco
 
 def gerar_bloco(terminal, imagem_url, artista_top):
