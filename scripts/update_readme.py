@@ -190,21 +190,47 @@ def gerar_terminal(top, artista_top):
 
     return "\n".join(linhas)
 
-def gerar_bloco(terminal, imagem_url, artista_top):
+def gerar_mini_terminal_artista(artista_top, imagem_url):
+    LARGURA_MINI = 28
+    BORDA = "─" * LARGURA_MINI
+
+    def linha_mini(texto=""):
+        pad = LARGURA_MINI - largura_real(texto) - 1
+        pad = max(pad, 0)
+        return f"│ {texto}{' ' * pad}│"
+
+    titulo = truncar(artista_top, LARGURA_MINI - 4)
+
+    linhas = [
+        f"┌{BORDA}┐",
+        linha_mini(" $ cat artist.txt"),
+        f"├{BORDA}┤",
+        linha_mini(),
+        linha_mini(" Artist of the Week"),
+        linha_mini(f" {titulo}"),
+        linha_mini(),
+        f"└{BORDA}┘",
+    ]
+    texto_terminal = "\n".join(linhas)
+
+    bloco = "```\n" + texto_terminal + "\n```"
     if imagem_url:
-        bloco = (
-            "<table><tr><td>\n\n"
-            "```\n"
-            f"{terminal}\n"
-            "```\n\n"
-            "</td><td align='center'>\n\n"
-            f"**Artist of the Week**\n\n"
-            f"**{artista_top}**\n\n"
-            f'<img src="{imagem_url}" width="200" style="border-radius:12px"/>\n\n'
-            "</td></tr></table>"
-        )
-    else:
-        bloco = "```\n" + terminal + "\n```"
+        bloco += f'\n\n<p align="center"><img src="{imagem_url}" width="180" style="border-radius:12px"/></p>'
+    return bloco
+
+def gerar_bloco(terminal, imagem_url, artista_top):
+    mini_terminal = gerar_mini_terminal_artista(artista_top, imagem_url)
+    bloco = (
+        "<table><tr>"
+        "<td valign='top' style='vertical-align: top;'>\n\n"
+        "```\n"
+        f"{terminal}\n"
+        "```\n\n"
+        "</td>"
+        "<td valign='top' align='center' style='vertical-align: top;'>\n\n"
+        f"{mini_terminal}\n\n"
+        "</td></tr></table>"
+    )
     return bloco
 
 def atualizar_readme(bloco):

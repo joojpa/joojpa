@@ -1,5 +1,5 @@
 <!-- TERMINAL_START -->
-<table><tr><td>
+<table><tr><td valign='top' style='vertical-align: top;'>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -49,13 +49,20 @@
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-</td><td align='center'>
+</td><td valign='top' align='center' style='vertical-align: top;'>
 
-**Artist of the Week**
+```
+┌────────────────────────────┐
+│  $ cat artist.txt          │
+├────────────────────────────┤
+│                            │
+│  Artist of the Week        │
+│  System of a Down          │
+│                            │
+└────────────────────────────┘
+```
 
-**System of a Down**
-
-<img src="https://cdn-images.dzcdn.net/images/artist/67460cdb0b52bfde1b807650958058d6/1000x1000-000000-80-0-0.jpg" width="200" style="border-radius:12px"/>
+<p align="center"><img src="https://cdn-images.dzcdn.net/images/artist/67460cdb0b52bfde1b807650958058d6/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:12px"/></p>
 
 </td></tr></table>
 <!-- TERMINAL_END -->
