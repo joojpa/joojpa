@@ -11,13 +11,13 @@ from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 
-LASTFM_API_KEY    = "3affae9bce83cc5fd8d062d2b61e772d"
-LASTFM_USER       = "joojpa"
-README_FILE       = Path(__file__).parent.parent / "README.md"
+LASTFM_API_KEY = "3affae9bce83cc5fd8d062d2b61e772d"
+LASTFM_USER    = "joojpa"
+README_FILE    = Path(__file__).parent.parent / "README.md"
 
-MARKER_START      = "<!-- MUSIC_START -->"
-MARKER_END        = "<!-- MUSIC_END -->"
-LARGURA           = 67
+MARKER_START = "<!-- TERMINAL_START -->"
+MARKER_END   = "<!-- TERMINAL_END -->"
+LARGURA      = 69
 
 def largura_real(s):
     total = 0
@@ -27,9 +27,20 @@ def largura_real(s):
     return total
 
 def linha(texto=""):
-    pad = LARGURA - largura_real(texto)
+    pad = LARGURA - largura_real(texto) - 1
     pad = max(pad, 0)
-    return f"│ {texto}{' ' * pad} │"
+    return f"│ {texto}{' ' * pad}│"
+
+def truncar(texto, max_largura):
+    resultado = ""
+    atual = 0
+    for c in texto:
+        w = 2 if unicodedata.east_asian_width(c) in ('W', 'F') else 1
+        if atual + w > max_largura:
+            return resultado + "..."
+        resultado += c
+        atual += w
+    return resultado
 
 def buscar_top_semana():
     hoje          = datetime.now().date()
@@ -117,42 +128,69 @@ def buscar_imagem_artista(artista):
 
     return None
 
-def truncar(texto, max_largura):
-    resultado = ""
-    atual = 0
-    for c in texto:
-        w = 2 if unicodedata.east_asian_width(c) in ('W', 'F') else 1
-        if atual + w > max_largura:
-            return resultado + "..."
-        resultado += c
-        atual += w
-    return resultado
-
-def gerar_bloco_musica(top, artista_top, imagem_url):
-    hoje   = datetime.now().strftime("%m/%d/%Y")
+def gerar_terminal(top, artista_top):
+    hoje = datetime.now().strftime("%m/%d/%Y")
     medals = ["🥇", "🥈", "🥉"]
-    max_musica = LARGURA - 6
+    max_musica = LARGURA - 8
 
-    BORDA = "─" * (LARGURA + 2)
-    terminal_linhas = [
+    BORDA = "─" * LARGURA
+    linhas = [
         f"┌{BORDA}┐",
-        linha(" $ cat now_playing.txt"),
+        linha(" joojpa@github  ~  [session: active]"),
         f"├{BORDA}┤",
         linha(),
+        linha(" $ whoami"),
+        linha("  ┌───────────────────────────────────────────────────────────────┐"),
+        linha("  │  João Alvarez · Software Engineer · Sorocaba, SP. BRASILLL     │"),
+        linha("  │  Computer Engineer — Univesp · 1th semester                    │"),
+        linha("  │  Cybersecurity and Sofware Development                         │"),
+        linha("  └───────────────────────────────────────────────────────────────┘"),
+        linha(),
+        linha(" $ cat stack.conf"),
+        linha(),
+        linha(" [cloud]               AWS · Azure"),
+        linha(" [containers]          Docker"),
+        linha(" [backend]             Node.js · SpringBoot · Python"),
+        linha(" [frontend]            React · Next.js · TailwindCSS"),
+        linha(" [database]            PostgreSQL · MySQL · MongoDB"),
+        linha(" [languages]           TypeScript · Python · Java"),
+        linha(),
+        linha(" $ cat current_focus.txt"),
+        linha(),
+        linha(" learning cybersec fundamentals · development"),
+        linha(),
+        linha(" $ cat hobbies.txt"),
+        linha(),
+        linha(" games · anime · movies · music · learning new things"),
+        linha(),
+        linha(" $ cat now_playing.txt"),
+        linha(),
         linha(f"   top 3 this week · updated on {hoje}"),
+        linha(f"   Artist of the Week: {artista_top}"),
         linha(),
     ]
 
     for i, (musica, contagem) in enumerate(top):
         medal  = medals[i]
         sufixo = f" ({contagem}x)"
-        texto  = f"  {medal} {truncar(musica, max_musica - len(sufixo) - 4)}{sufixo}"
-        terminal_linhas.append(linha(texto))
+        texto  = f"   {medal} {truncar(musica, max_musica - len(sufixo) - 4)}{sufixo}"
+        linhas.append(linha(texto))
 
-    terminal_linhas.append(linha())
-    terminal_linhas.append(f"└{BORDA}┘")
-    terminal = "\n".join(terminal_linhas)
+    linhas += [
+        linha(),
+        linha(" $ ./connect.sh"),
+        linha(),
+        linha(" > github:    https://github.com/joojpa"),
+        linha(" > linkedin:  https://linkedin.com/in/joojpa"),
+        linha(" > email:     joojpaz@gmail.com"),
+        linha(),
+        linha(" $ _"),
+        f"└{BORDA}┘",
+    ]
 
+    return "\n".join(linhas)
+
+def gerar_bloco(terminal, imagem_url, artista_top):
     if imagem_url:
         bloco = (
             "<table><tr><td>\n\n"
@@ -167,15 +205,21 @@ def gerar_bloco_musica(top, artista_top, imagem_url):
         )
     else:
         bloco = "```\n" + terminal + "\n```"
-
     return bloco
 
-def atualizar_secao(conteudo, marker_start, marker_end, bloco):
-    if marker_start not in conteudo or marker_end not in conteudo:
-        return conteudo, False
-    antes  = conteudo.split(marker_start)[0]
-    depois = conteudo.split(marker_end)[1]
-    return f"{antes}{marker_start}\n{bloco}\n{marker_end}{depois}", True
+def atualizar_readme(bloco):
+    conteudo = README_FILE.read_text(encoding="utf-8")
+
+    if MARKER_START not in conteudo or MARKER_END not in conteudo:
+        print("Markers not found in README.")
+        return False
+
+    antes  = conteudo.split(MARKER_START)[0]
+    depois = conteudo.split(MARKER_END)[1]
+    novo   = f"{antes}{MARKER_START}\n{bloco}\n{MARKER_END}{depois}"
+    README_FILE.write_text(novo, encoding="utf-8")
+    print("README updated!")
+    return True
 
 def main():
     print("Fetching top 3 of the week...")
@@ -197,14 +241,9 @@ def main():
     else:
         print("  ⚠️  Image not found, continuing without it.")
 
-    conteudo = README_FILE.read_text(encoding="utf-8")
-
-    conteudo, ok = atualizar_secao(conteudo, MARKER_START, MARKER_END, gerar_bloco_musica(top3, artista_top, imagem_url))
-    if not ok:
-        print("Music markers not found in README.")
-
-    README_FILE.write_text(conteudo, encoding="utf-8")
-    print("README updated!")
+    terminal = gerar_terminal(top3, artista_top)
+    bloco    = gerar_bloco(terminal, imagem_url, artista_top)
+    atualizar_readme(bloco)
 
 if __name__ == "__main__":
     main()
