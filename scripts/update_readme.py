@@ -8,18 +8,15 @@ import urllib.parse
 import json
 import unicodedata
 from collections import Counter
-from datetime import datetime, timedelta, date
+from datetime import datetime, timedelta
 from pathlib import Path
 
 LASTFM_API_KEY    = "3affae9bce83cc5fd8d062d2b61e772d"
 LASTFM_USER       = "joojpa"
 README_FILE       = Path(__file__).parent.parent / "README.md"
-CYBERSEC_START    = date(2026, 6, 11)
 
 MARKER_START      = "<!-- MUSIC_START -->"
 MARKER_END        = "<!-- MUSIC_END -->"
-MARKER_CYBER_START = "<!-- CYBER_START -->"
-MARKER_CYBER_END   = "<!-- CYBER_END -->"
 LARGURA           = 67
 
 def largura_real(s):
@@ -131,9 +128,6 @@ def truncar(texto, max_largura):
         atual += w
     return resultado
 
-def dias_cybersec():
-    return (date.today() - CYBERSEC_START).days
-
 def gerar_bloco_musica(top, artista_top, imagem_url):
     hoje   = datetime.now().strftime("%m/%d/%Y")
     medals = ["🥇", "🥈", "🥉"]
@@ -176,18 +170,6 @@ def gerar_bloco_musica(top, artista_top, imagem_url):
 
     return bloco
 
-def gerar_bloco_cybersec():
-    dias  = dias_cybersec()
-    barra = min(dias, 365)
-    progresso = int((barra / 365) * 20)
-    barra_str = "█" * progresso + "░" * (20 - progresso)
-    pct = round((barra / 365) * 100, 1)
-    return (
-        f"![cybersec](https://img.shields.io/badge/Google_Cybersecurity-"
-        f"Day%20{dias}%20of%20365-blue?style=for-the-badge&logo=google&logoColor=white)\n\n"
-        f"`[{barra_str}] {pct}%`"
-    )
-
 def atualizar_secao(conteudo, marker_start, marker_end, bloco):
     if marker_start not in conteudo or marker_end not in conteudo:
         return conteudo, False
@@ -215,18 +197,11 @@ def main():
     else:
         print("  ⚠️  Image not found, continuing without it.")
 
-    dias = dias_cybersec()
-    print(f"  📅 Cybersecurity streak: Day {dias}")
-
     conteudo = README_FILE.read_text(encoding="utf-8")
 
     conteudo, ok = atualizar_secao(conteudo, MARKER_START, MARKER_END, gerar_bloco_musica(top3, artista_top, imagem_url))
     if not ok:
         print("Music markers not found in README.")
-
-    conteudo, ok = atualizar_secao(conteudo, MARKER_CYBER_START, MARKER_CYBER_END, gerar_bloco_cybersec())
-    if not ok:
-        print("Cybersec markers not found in README — add <!-- CYBER_START --> and <!-- CYBER_END -->.")
 
     README_FILE.write_text(conteudo, encoding="utf-8")
     print("README updated!")

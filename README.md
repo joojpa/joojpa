@@ -37,12 +37,6 @@
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-<!-- CYBER_START -->
-![cybersec](https://img.shields.io/badge/Google_Cybersecurity-Day%205%20of%20365-blue?style=for-the-badge&logo=google&logoColor=white)
-
-`[░░░░░░░░░░░░░░░░░░░░] 1.4%`
-<!-- CYBER_END -->
-
 <!-- MUSIC_START -->
 <table><tr><td>
 
@@ -51,11 +45,11 @@
 │  $ cat now_playing.txt                                              │
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                     │
-│    top 3 this week · updated on 06/16/2026                          │
+│    top 3 this week · updated on 06/18/2026                          │
 │                                                                     │
-│   🥇 Empty Walls — Serj Tankian (23x)                               │
+│   🥇 Empty Walls — Serj Tankian (24x)                               │
 │   🥈 Saving Grace (From the Prime Original Series Spider-... (7x)   │
-│   🥉 Coming Undone — Korn (5x)                                      │
+│   🥉 Guns for Hire (From the series Arcane League of Lege... (7x)   │
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
@@ -64,9 +58,9 @@
 
 **Artist of the Week**
 
-**Korn**
+**System of a Down**
 
-<img src="https://cdn-images.dzcdn.net/images/artist/77c9598025a4f29d7c4d070fbde6a0c8/1000x1000-000000-80-0-0.jpg" width="200" style="border-radius:12px"/>
+<img src="https://cdn-images.dzcdn.net/images/artist/67460cdb0b52bfde1b807650958058d6/1000x1000-000000-80-0-0.jpg" width="200" style="border-radius:12px"/>
 
 </td></tr></table>
 <!-- MUSIC_END -->
