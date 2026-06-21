@@ -32,10 +32,10 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 06/20/2026                          │
+│    top 3 this week · updated on 06/21/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    🥇 Empty Walls — Serj Tankian (17x)                              │
+│    🥇 Empty Walls — Serj Tankian (12x)                              │
 │    🥈 Guns for Hire (From the series Arcane League of Lege... (7x)  │
 │    🥉 Last Resort — Papa Roach (6x)                                 │
 │                                                                     │
