@@ -130,8 +130,8 @@ def buscar_imagem_artista(artista):
 
 def gerar_terminal(top, artista_top):
     hoje = datetime.now().strftime("%m/%d/%Y")
-    medals = ["🥇", "🥈", "🥉"]
-    max_musica = LARGURA - 14
+    medals = ["#1", "#2", "#3"]
+    max_musica = LARGURA - 18
 
     BORDA = "─" * LARGURA
     linhas = [

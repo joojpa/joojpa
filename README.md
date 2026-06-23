@@ -35,9 +35,9 @@
 │    top 3 this week · updated on 06/22/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    🥇 Peephole — System of a Down (13x)                             │
-│    🥈 Empty Walls — Serj Tankian (11x)                              │
-│    🥉 Guns for Hire (From the series Arcane League o... (6x)        │
+│    #1 Peephole — System of a Down (13x)                             │
+│    #2 Empty Walls — Serj Tankian (11x)                              │
+│    #3 Guns for Hire (From the series Arcane Leag... (6x)            │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
