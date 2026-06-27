@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 06/26/2026                          │
+│    top 3 this week · updated on 06/27/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Peephole — System of a Down (21x)                             │
+│    #1 Peephole — System of a Down (20x)                             │
 │    #2 Know — System of a Down (5x)                                  │
-│    #3 Sugar — System of a Down (4x)                                 │
+│    #3 Sugar — System of a Down (3x)                                 │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
