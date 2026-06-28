@@ -32,7 +32,7 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 06/27/2026                          │
+│    top 3 this week · updated on 06/28/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Peephole — System of a Down (20x)                             │
