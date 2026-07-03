@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/02/2026                          │
+│    top 3 this week · updated on 07/03/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Peephole — System of a Down (7x)                              │
-│    #2 Joias da Família (part. MAIK sbkaos, Biffe... (3x)            │
-│    #3 Meu Jeitinho — LVCAS (3x)                                     │
+│    #1 Joias da Família (part. MAIK sbkaos, Biff... (10x)            │
+│    #2 Peephole — System of a Down (6x)                              │
+│    #3 残響散歌 - Zankyosanka — Aimer (3x)                           │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
