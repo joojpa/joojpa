@@ -32,7 +32,7 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/05/2026                          │
+│    top 3 this week · updated on 07/06/2026                          │
 │    Artist of the Week: YUNG LIXO                                    │
 │                                                                     │
 │    #1 Joias da Família (part. MAIK sbkaos, Biff... (10x)            │
