@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/09/2026                          │
+│    top 3 this week · updated on 07/10/2026                          │
 │    Artist of the Week: YUNG LIXO                                    │
 │                                                                     │
-│    #1 Joias da Família (part. MAIK sbkaos, Biff... (14x)            │
-│    #2 Saving Grace (From the Prime Original Seri... (5x)            │
-│    #3 bico do corvo — LVCAS (3x)                                    │
+│    #1 Joias da Família (part. MAIK sbkaos, Biffe... (8x)            │
+│    #2 Saving Grace (From the Prime Original Seri... (3x)            │
+│    #3 Peephole — System of a Down (2x)                              │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
