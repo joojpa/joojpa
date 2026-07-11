@@ -32,10 +32,10 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/10/2026                          │
-│    Artist of the Week: YUNG LIXO                                    │
+│    top 3 this week · updated on 07/11/2026                          │
+│    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Joias da Família (part. MAIK sbkaos, Biffe... (8x)            │
+│    #1 Joias da Família (part. MAIK sbkaos, Biffe... (4x)            │
 │    #2 Saving Grace (From the Prime Original Seri... (3x)            │
 │    #3 Peephole — System of a Down (2x)                              │
 │                                                                     │
@@ -51,7 +51,7 @@
 
 </td><td valign='top' align='center' style='vertical-align: top;'>
 
-<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/a01cc5f5bbb09711637d4927e9ab83cd/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">YUNG LIXO</span></td></tr></table>
+<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/67460cdb0b52bfde1b807650958058d6/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">System of a Down</span></td></tr></table>
 
 </td></tr></table>
 <!-- TERMINAL_END -->
