@@ -32,7 +32,7 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/13/2026                          │
+│    top 3 this week · updated on 07/14/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Joias da Família (part. MAIK sbkaos, Biffe... (4x)            │
