@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/14/2026                          │
+│    top 3 this week · updated on 07/15/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Joias da Família (part. MAIK sbkaos, Biffe... (4x)            │
-│    #2 Saving Grace (From the Prime Original Seri... (3x)            │
-│    #3 Peephole — System of a Down (2x)                              │
+│    #1 Joias da Família (part. MAIK sbkaos, Biffe... (3x)            │
+│    #2 Peephole — System of a Down (2x)                              │
+│    #3 Lost in Hollywood — System of a Down (1x)                     │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
