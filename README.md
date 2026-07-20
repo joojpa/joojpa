@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/16/2026                          │
+│    top 3 this week · updated on 07/20/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Peephole — System of a Down (2x)                              │
-│    #2 Joias da Família (part. MAIK sbkaos, Biffe... (1x)            │
-│    #3 Lost in Hollywood — System of a Down (1x)                     │
+│    #1 Bang Bang (part. Adam Levine) — K'naan (1x)                   │
+│    #2 Uptown Funk (part. Bruno Mars) — Mark Rons... (1x)            │
+│    #3 ...Baby One More Time — Sassydee (1x)                         │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
