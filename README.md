@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/21/2026                          │
-│    Artist of the Week: HAZBIN HOTEL                                 │
+│    top 3 this week · updated on 07/22/2026                          │
+│    Artist of the Week: Britney Spears                               │
 │                                                                     │
-│    #1 ...Baby One More Time — Britney Spears (10x)                  │
-│    #2 I'm Still Standing — Elton John (2x)                          │
-│    #3 Saving Grace (From the Prime Original Seri... (2x)            │
+│    #1 ...Baby One More Time — Britney Spears (17x)                  │
+│    #2 Sacrifice — Elton John (3x)                                   │
+│    #3 Know — System of a Down (3x)                                  │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
@@ -51,7 +51,7 @@
 
 </td><td valign='top' align='center' style='vertical-align: top;'>
 
-<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/d1b9c0e3157f6883a363c3ad1865d5bc/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">HAZBIN HOTEL</span></td></tr></table>
+<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">Britney Spears</span></td></tr></table>
 
 </td></tr></table>
 <!-- TERMINAL_END -->
