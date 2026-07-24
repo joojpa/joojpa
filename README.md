@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/23/2026                          │
+│    top 3 this week · updated on 07/24/2026                          │
 │    Artist of the Week: Britney Spears                               │
 │                                                                     │
-│    #1 ...Baby One More Time — Britney Spears (20x)                  │
+│    #1 ...Baby One More Time — Britney Spears (27x)                  │
 │    #2 Know — System of a Down (5x)                                  │
-│    #3 Stealing Society — System of a Down (3x)                      │
+│    #3 Sacrifice — Elton John (4x)                                   │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
