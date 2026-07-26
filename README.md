@@ -32,7 +32,7 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/25/2026                          │
+│    top 3 this week · updated on 07/26/2026                          │
 │    Artist of the Week: Britney Spears                               │
 │                                                                     │
 │    #1 ...Baby One More Time — Britney Spears (29x)                  │
