@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/28/2026                          │
-│    Artist of the Week: Britney Spears                               │
+│    top 3 this week · updated on 07/29/2026                          │
+│    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 ...Baby One More Time — Britney Spears (25x)                  │
-│    #2 Sacrifice — Elton John (4x)                                   │
-│    #3 Know — System of a Down (4x)                                  │
+│    #1 ...Baby One More Time — Britney Spears (18x)                  │
+│    #2 Marmalade — System of a Down (5x)                             │
+│    #3 Stealing Society — System of a Down (3x)                      │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
@@ -51,7 +51,7 @@
 
 </td><td valign='top' align='center' style='vertical-align: top;'>
 
-<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/caea45732bb52679494602c60430435a/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">Britney Spears</span></td></tr></table>
+<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/67460cdb0b52bfde1b807650958058d6/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">System of a Down</span></td></tr></table>
 
 </td></tr></table>
 <!-- TERMINAL_END -->
