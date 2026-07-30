@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 07/29/2026                          │
+│    top 3 this week · updated on 07/30/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 ...Baby One More Time — Britney Spears (18x)                  │
+│    #1 ...Baby One More Time — Britney Spears (11x)                  │
 │    #2 Marmalade — System of a Down (5x)                             │
-│    #3 Stealing Society — System of a Down (3x)                      │
+│    #3 Pump It — The Black Eyed Peas (3x)                            │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
