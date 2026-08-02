@@ -32,7 +32,7 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/01/2026                          │
+│    top 3 this week · updated on 08/02/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Aranha (Chrollo) — Kaito Rapper (10x)                         │
