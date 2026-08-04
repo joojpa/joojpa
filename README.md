@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/03/2026                          │
+│    top 3 this week · updated on 08/04/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Aranha (Chrollo) — Kaito Rapper (10x)                         │
-│    #2 Marmalade — System of a Down (7x)                             │
-│    #3 Stealing Society — System of a Down (5x)                      │
+│    #2 Stealing Society — System of a Down (6x)                      │
+│    #3 Mágico Assassino (Hisoka) — Enygma Rapper (5x)                │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
