@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/07/2026                          │
+│    top 3 this week · updated on 08/08/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Stealing Society — System of a Down (7x)                      │
-│    #2 Aranha (Chrollo) — Kaito Rapper (7x)                          │
-│    #3 Mágico Assassino (Hisoka) — Enygma Rapper (5x)                │
+│    #1 Stealing Society — System of a Down (5x)                      │
+│    #2 ...Baby One More Time — Britney Spears (4x)                   │
+│    #3 Mágico Assassino (Hisoka) — Enygma Rapper (2x)                │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
