@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/08/2026                          │
+│    top 3 this week · updated on 08/09/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Stealing Society — System of a Down (5x)                      │
-│    #2 ...Baby One More Time — Britney Spears (4x)                   │
-│    #3 Mágico Assassino (Hisoka) — Enygma Rapper (2x)                │
+│    #1 ...Baby One More Time — Britney Spears (6x)                   │
+│    #2 Stealing Society — System of a Down (5x)                      │
+│    #3 Lost in Hollywood — System of a Down (2x)                     │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
