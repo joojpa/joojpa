@@ -32,7 +32,7 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/10/2026                          │
+│    top 3 this week · updated on 08/11/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 ...Baby One More Time — Britney Spears (6x)                   │
