@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/16/2026                          │
+│    top 3 this week · updated on 08/17/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Unsainted — Slipknot (3x)                                     │
-│    #2 Genocidal Humanoidz — System of a Down (3x)                   │
-│    #3 Stealing Society — System of a Down (2x)                      │
+│    #2 Stealing Society — System of a Down (2x)                      │
+│    #3 Genocidal Humanoidz — System of a Down (2x)                   │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
