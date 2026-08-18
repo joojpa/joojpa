@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/17/2026                          │
+│    top 3 this week · updated on 08/18/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Unsainted — Slipknot (3x)                                     │
-│    #2 Stealing Society — System of a Down (2x)                      │
-│    #3 Genocidal Humanoidz — System of a Down (2x)                   │
+│    #1 ...Baby One More Time — Britney Spears (5x)                   │
+│    #2 Unsainted — Slipknot (5x)                                     │
+│    #3 Everybody (Backstreet's Back) (Radio Edit)... (2x)            │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
