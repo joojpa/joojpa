@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/19/2026                          │
+│    top 3 this week · updated on 08/20/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 ...Baby One More Time — Britney Spears (5x)                   │
+│    #1 ...Baby One More Time — Britney Spears (7x)                   │
 │    #2 Unsainted — Slipknot (5x)                                     │
-│    #3 Everybody (Backstreet's Back) (Radio Edit)... (3x)            │
+│    #3 Lua de Neon — TakaB (4x)                                      │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
