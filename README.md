@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/24/2026                          │
+│    top 3 this week · updated on 08/25/2026                          │
 │    Artist of the Week: Enygma                                       │
 │                                                                     │
-│    #1 ...Baby One More Time — Britney Spears (11x)                  │
-│    #2 Lua de Neon — TakaB (10x)                                     │
-│    #3 Linhagem Profana — Novatroop (8x)                             │
+│    #1 Lua de Neon — TakaB (10x)                                     │
+│    #2 ...Baby One More Time — Britney Spears (9x)                   │
+│    #3 Mágico Assassino (Hisoka) — Enygma (9x)                       │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
