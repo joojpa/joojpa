@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/27/2026                          │
+│    top 3 this week · updated on 08/28/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Lua de Neon — TakaB (10x)                                     │
-│    #2 Mágico Assassino (Hisoka) — Enygma (8x)                       │
-│    #3 ...Baby One More Time — Britney Spears (7x)                   │
+│    #1 Lua de Neon — TakaB (7x)                                      │
+│    #2 Everybody (Backstreet's Back) (Radio Edit)... (7x)            │
+│    #3 ...Baby One More Time — Britney Spears (6x)                   │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
