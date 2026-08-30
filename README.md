@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/29/2026                          │
+│    top 3 this week · updated on 08/30/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Like a Stone — Audioslave (7x)                                │
-│    #2 ...Baby One More Time — Britney Spears (6x)                   │
-│    #3 Lua de Neon — TakaB (6x)                                      │
+│    #1 Lua de Neon — TakaB (8x)                                      │
+│    #2 Like a Stone — Audioslave (7x)                                │
+│    #3 Everybody (Backstreet's Back) (Radio Edit)... (6x)            │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
