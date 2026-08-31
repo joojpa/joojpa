@@ -32,7 +32,7 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 08/30/2026                          │
+│    top 3 this week · updated on 08/31/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Lua de Neon — TakaB (8x)                                      │
