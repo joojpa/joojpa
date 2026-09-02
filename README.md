@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/01/2026                          │
+│    top 3 this week · updated on 09/02/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Lua de Neon — TakaB (7x)                                      │
-│    #2 Like a Stone — Audioslave (7x)                                │
-│    #3 Toxic — Britney Spears (5x)                                   │
+│    #1 Like a Stone — Audioslave (7x)                                │
+│    #2 Lua de Neon — TakaB (7x)                                      │
+│    #3 Toxic — Britney Spears (6x)                                   │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
