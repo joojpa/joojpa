@@ -32,11 +32,11 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/02/2026                          │
-│    Artist of the Week: System of a Down                             │
+│    top 3 this week · updated on 09/03/2026                          │
+│    Artist of the Week: Britney Spears                               │
 │                                                                     │
-│    #1 Like a Stone — Audioslave (7x)                                │
-│    #2 Lua de Neon — TakaB (7x)                                      │
+│    #1 Like a Stone — Audioslave (8x)                                │
+│    #2 Joias da Família (part. MAIK sbkaos, Biffe... (7x)            │
 │    #3 Toxic — Britney Spears (6x)                                   │
 │                                                                     │
 │  $ ./connect.sh                                                     │
@@ -51,7 +51,7 @@
 
 </td><td valign='top' align='center' style='vertical-align: top;'>
 
-<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/67460cdb0b52bfde1b807650958058d6/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">System of a Down</span></td></tr></table>
+<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/caea45732bb52679494602c60430435a/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">Britney Spears</span></td></tr></table>
 
 </td></tr></table>
 <!-- TERMINAL_END -->
