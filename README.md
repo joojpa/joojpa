@@ -32,11 +32,11 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/03/2026                          │
+│    top 3 this week · updated on 09/04/2026                          │
 │    Artist of the Week: Britney Spears                               │
 │                                                                     │
-│    #1 Like a Stone — Audioslave (8x)                                │
-│    #2 Joias da Família (part. MAIK sbkaos, Biffe... (7x)            │
+│    #1 Like a Stone — Audioslave (7x)                                │
+│    #2 Joias da Família (part. MAIK sbkaos, Biffe... (6x)            │
 │    #3 Toxic — Britney Spears (6x)                                   │
 │                                                                     │
 │  $ ./connect.sh                                                     │
