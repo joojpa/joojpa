@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/09/2026                          │
+│    top 3 this week · updated on 09/10/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Joias da Família (part. MAIK sbkaos, Biffe... (5x)            │
-│    #2 Victory Road OST — BREAK IT DOWN! (3x)                        │
-│    #3 Like a Stone — Audioslave (3x)                                │
+│    #1 Ideais — Shiny_sz (3x)                                        │
+│    #2 ...Baby One More Time — Britney Spears (3x)                   │
+│    #3 Victory Road OST — BREAK IT DOWN! (3x)                        │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
