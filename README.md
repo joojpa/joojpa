@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/10/2026                          │
+│    top 3 this week · updated on 09/11/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Ideais — Shiny_sz (3x)                                        │
-│    #2 ...Baby One More Time — Britney Spears (3x)                   │
-│    #3 Victory Road OST — BREAK IT DOWN! (3x)                        │
+│    #1 Minha Determinação (Sans e Chara) — Anny (4x)                 │
+│    #2 Ideais — Shiny_sz (3x)                                        │
+│    #3 Joias da Família (part. MAIK sbkaos, Biffe... (2x)            │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
