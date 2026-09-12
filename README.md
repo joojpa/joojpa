@@ -32,7 +32,7 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/11/2026                          │
+│    top 3 this week · updated on 09/12/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Minha Determinação (Sans e Chara) — Anny (4x)                 │
