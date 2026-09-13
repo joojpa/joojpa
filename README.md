@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/12/2026                          │
+│    top 3 this week · updated on 09/13/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Minha Determinação (Sans e Chara) — Anny (4x)                 │
-│    #2 Ideais — Shiny_sz (3x)                                        │
-│    #3 Joias da Família (part. MAIK sbkaos, Biffe... (2x)            │
+│    #2 Ideais — Shiny_sz (2x)                                        │
+│    #3 Murciélago — M4rkim (1x)                                      │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
