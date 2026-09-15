@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/14/2026                          │
+│    top 3 this week · updated on 09/15/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Minha Determinação (Sans e Chara) — Anny (5x)                 │
-│    #2 Somewhere I Belong — Linkin Park (2x)                         │
-│    #3 Like a Stone — Audioslave (2x)                                │
+│    #1 Minha Determinação (Sans e Chara) — Anny (6x)                 │
+│    #2 Like a Stone — Audioslave (2x)                                │
+│    #3 Joseph — Falling in Reverse (2x)                              │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
