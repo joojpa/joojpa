@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/18/2026                          │
+│    top 3 this week · updated on 09/19/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Joseph — Falling in Reverse (4x)                              │
-│    #2 Minha Determinação (Sans e Chara) — Anny (4x)                 │
-│    #3 Capitão Pátria: O QUE EU QUISER — 7 Minuto... (2x)            │
+│    #2 Capitão Pátria: O QUE EU QUISER — 7 Minuto... (2x)            │
+│    #3 This Love — Maroon 5 (2x)                                     │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
