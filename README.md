@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/19/2026                          │
+│    top 3 this week · updated on 09/20/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Joseph — Falling in Reverse (4x)                              │
-│    #2 Capitão Pátria: O QUE EU QUISER — 7 Minuto... (2x)            │
-│    #3 This Love — Maroon 5 (2x)                                     │
+│    #1 Joseph — Falling in Reverse (5x)                              │
+│    #2 Peephole — System of a Down (2x)                              │
+│    #3 Oops!...I Did It Again — Britney Spears (2x)                  │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
