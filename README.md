@@ -32,7 +32,7 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/26/2026                          │
+│    top 3 this week · updated on 09/27/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Empty Walls — Serj Tankian (8x)                               │
