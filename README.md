@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 09/27/2026                          │
+│    top 3 this week · updated on 09/28/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Empty Walls — Serj Tankian (8x)                               │
-│    #2 Easy — Faith No More (7x)                                     │
-│    #3 Peephole — System of a Down (6x)                              │
+│    #1 Empty Walls — Serj Tankian (7x)                               │
+│    #2 Easy — Faith No More (6x)                                     │
+│    #3 Peephole — System of a Down (5x)                              │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
