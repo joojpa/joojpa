@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 10/02/2026                          │
+│    top 3 this week · updated on 10/03/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Easy — Faith No More (3x)                                     │
-│    #2 Suite-Pee — System of a Down (1x)                             │
-│    #3 A.D.I.D.A.S. — Korn (1x)                                      │
+│    #1 Suite-Pee — System of a Down (1x)                             │
+│    #2 A.D.I.D.A.S. — Korn (1x)                                      │
+│    #3 Monster — Skillet (1x)                                        │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
