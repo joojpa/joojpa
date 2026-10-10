@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 10/09/2026                          │
+│    top 3 this week · updated on 10/10/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 The Rains of Castamere — Ramin Djawadi (11x)                  │
+│    #1 The Rains of Castamere — Ramin Djawadi (12x)                  │
 │    #2 Sky is Over — Serj Tankian (9x)                               │
-│    #3 Closure — Zero (7x)                                           │
+│    #3 Holy Mountains — System of a Down (8x)                        │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
