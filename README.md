@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 10/15/2026                          │
+│    top 3 this week · updated on 10/16/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 The Rains of Castamere — Ramin Djawadi (17x)                  │
-│    #2 Holy Mountains — System of a Down (12x)                       │
-│    #3 They Don't Care About Us — Michael Jackso... (10x)            │
+│    #1 Holy Mountains — System of a Down (11x)                       │
+│    #2 They Don't Care About Us — Michael Jackso... (10x)            │
+│    #3 The Rains of Castamere — Ramin Djawadi (10x)                  │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
