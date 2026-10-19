@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 10/18/2026                          │
+│    top 3 this week · updated on 10/19/2026                          │
 │    Artist of the Week: Michael Jackson                              │
 │                                                                     │
-│    #1 They Don't Care About Us — Michael Jackson (6x)               │
+│    #1 They Don't Care About Us — Michael Jackson (5x)               │
 │    #2 The Rains of Castamere — Ramin Djawadi (5x)                   │
-│    #3 Holy Mountains — System of a Down (3x)                        │
+│    #3 Closure — Zero (2x)                                           │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
@@ -51,7 +51,7 @@
 
 </td><td valign='top' align='center' style='vertical-align: top;'>
 
-<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/ff1c8cf777db1efc2043b90d79dcbfc3/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">Michael Jackson</span></td></tr></table>
+<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/97fae13b2b30e4aec2e8c9e0c7839d92/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">Michael Jackson</span></td></tr></table>
 
 </td></tr></table>
 <!-- TERMINAL_END -->
