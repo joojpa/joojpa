@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 10/20/2026                          │
-│    Artist of the Week: Michael Jackson                              │
+│    top 3 this week · updated on 10/22/2026                          │
+│    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 The Rains of Castamere — Ramin Djawadi (6x)                   │
-│    #2 They Don't Care About Us — Michael Jackson (6x)               │
-│    #3 Joseph — Falling in Reverse (3x)                              │
+│    #1 Sky is Over — Serj Tankian (5x)                               │
+│    #2 They Don't Care About Us — Michael Jackson (5x)               │
+│    #3 The Rains of Castamere — Ramin Djawadi (4x)                   │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
@@ -51,7 +51,7 @@
 
 </td><td valign='top' align='center' style='vertical-align: top;'>
 
-<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/ff1c8cf777db1efc2043b90d79dcbfc3/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">Michael Jackson</span></td></tr></table>
+<table cellpadding="0" cellspacing="0" style="border:1px solid #444;border-radius:6px;width:220px;font-family:monospace;background:#0d1117;color:#c9d1d9;"><tr><td style="padding:6px 10px;border-bottom:1px solid #444;font-size:13px;">$ cat artist.txt</td></tr><tr><td align="center" style="padding:10px;"><img src="https://cdn-images.dzcdn.net/images/artist/67460cdb0b52bfde1b807650958058d6/1000x1000-000000-80-0-0.jpg" width="180" style="border-radius:8px;margin:8px 0;"/><br/><b style="font-size:13px;">Artist of the Week</b><br/><span style="font-size:13px;">System of a Down</span></td></tr></table>
 
 </td></tr></table>
 <!-- TERMINAL_END -->
