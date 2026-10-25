@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 10/24/2026                          │
+│    top 3 this week · updated on 10/25/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 They Don't Care About Us — Michael Jackson (5x)               │
-│    #2 Sky is Over — Serj Tankian (5x)                               │
-│    #3 Joseph — Falling in Reverse (4x)                              │
+│    #1 Joseph — Falling in Reverse (6x)                              │
+│    #2 Sky is Over — Serj Tankian (6x)                               │
+│    #3 The Rains of Castamere — Ramin Djawadi (5x)                   │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
