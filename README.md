@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 10/27/2026                          │
+│    top 3 this week · updated on 10/28/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Joseph — Falling in Reverse (10x)                             │
-│    #2 Sad Statue — System of a Down (6x)                            │
-│    #3 Sky is Over — Serj Tankian (6x)                               │
+│    #2 Sad Statue — System of a Down (9x)                            │
+│    #3 Sky is Over — Serj Tankian (7x)                               │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
