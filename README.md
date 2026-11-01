@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 10/31/2026                          │
+│    top 3 this week · updated on 11/01/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Sad Statue — System of a Down (9x)                            │
-│    #2 Joseph — Falling in Reverse (9x)                              │
-│    #3 Prison Song — System of a Down (4x)                           │
+│    #2 Joseph — Falling in Reverse (8x)                              │
+│    #3 Pain — Three Days Grace (3x)                                  │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
