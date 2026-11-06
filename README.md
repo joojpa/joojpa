@@ -32,11 +32,11 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 11/05/2026                          │
+│    top 3 this week · updated on 11/06/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Sad Statue — System of a Down (3x)                            │
-│    #2 Closure — Zero (2x)                                           │
+│    #1 Pain — Three Days Grace (2x)                                  │
+│    #2 Empty Walls — Serj Tankian (2x)                               │
 │    #3 Joseph — Falling in Reverse (2x)                              │
 │                                                                     │
 │  $ ./connect.sh                                                     │
