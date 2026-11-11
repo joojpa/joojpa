@@ -32,11 +32,11 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 11/10/2026                          │
+│    top 3 this week · updated on 11/11/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Empty Walls — Serj Tankian (5x)                               │
-│    #2 Joseph — Falling in Reverse (4x)                              │
+│    #2 Lost in Hollywood — System of a Down (4x)                     │
 │    #3 Pain — Three Days Grace (4x)                                  │
 │                                                                     │
 │  $ ./connect.sh                                                     │
