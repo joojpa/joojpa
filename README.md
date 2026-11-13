@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 11/12/2026                          │
+│    top 3 this week · updated on 11/13/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Joseph — Falling in Reverse (5x)                              │
-│    #2 Lost in Hollywood — System of a Down (5x)                     │
-│    #3 Empty Walls — Serj Tankian (5x)                               │
+│    #1 Joias da Família (part. MAIK sbkaos, Biffe... (7x)            │
+│    #2 Joseph — Falling in Reverse (6x)                              │
+│    #3 bico do corvo — LVCAS (6x)                                    │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
