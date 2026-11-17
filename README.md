@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 11/16/2026                          │
+│    top 3 this week · updated on 11/17/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Joias da Família (part. MAIK sbkaos, Biffe... (9x)            │
-│    #2 bico do corvo — LVCAS (7x)                                    │
-│    #3 Joseph — Falling in Reverse (6x)                              │
+│    #1 bico do corvo — LVCAS (10x)                                   │
+│    #2 Joias da Família (part. MAIK sbkaos, Biffe... (9x)            │
+│    #3 Joseph — Falling in Reverse (5x)                              │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
