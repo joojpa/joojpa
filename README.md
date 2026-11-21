@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 11/20/2026                          │
+│    top 3 this week · updated on 11/21/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
 │    #1 Highway Song — System of a Down (9x)                          │
-│    #2 bico do corvo — LVCAS (9x)                                    │
-│    #3 mea culpa — LVCAS (5x)                                        │
+│    #2 bico do corvo — LVCAS (6x)                                    │
+│    #3 mea culpa — LVCAS (4x)                                        │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
