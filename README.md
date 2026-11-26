@@ -32,12 +32,12 @@
 │                                                                     │
 │  $ cat now_playing.txt                                              │
 │                                                                     │
-│    top 3 this week · updated on 11/25/2026                          │
+│    top 3 this week · updated on 11/26/2026                          │
 │    Artist of the Week: System of a Down                             │
 │                                                                     │
-│    #1 Highway Song — System of a Down (14x)                         │
-│    #2 Volátil — LVCAS (7x)                                          │
-│    #3 Bring Me to Life — Evanescence (6x)                           │
+│    #1 Highway Song — System of a Down (17x)                         │
+│    #2 Bring Me to Life — Evanescence (8x)                           │
+│    #3 Volátil — LVCAS (6x)                                          │
 │                                                                     │
 │  $ ./connect.sh                                                     │
 │                                                                     │
